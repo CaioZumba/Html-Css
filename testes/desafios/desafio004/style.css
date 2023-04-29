@@ -1,0 +1,133 @@
+@charset "UTF8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+body {
+    background-color: #73c296;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+header {
+    background-image: linear-gradient(to top, #1a5c38, #288e55, #3bd47f);
+    padding: 1%;
+    margin: 0px;
+    display: block;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+header > h1 {
+    text-align: center;
+    background-image: linear-gradient(to bootom #1a5c38, #288e55, #3bd47f);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header > p {
+    text-align: center;
+    display: flex;
+    margin: 10px 36% ;
+}
+
+nav {
+    padding: 5px;
+}
+
+nav > a {
+    padding: 1%;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .5s;
+}
+nav > a:hover {
+    background-color: #3bd47f;
+    color: #286645;
+}
+
+.hyper {
+    color: rgb(19, 124, 19);
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.imagem {
+    display: block;
+    margin: auto;
+}
+
+.video {
+    background-color: #1a5c38;
+    text-align: center;
+    padding: 60px 10px 60px 10px;
+    width:auto;
+    height: 30%px;
+}
+
+#principal {
+    font-size: 50px;
+    color: #286645;
+    font-family: idroid;
+}
+
+main {
+    background-color: white;
+    max-width: 70%;
+    margin: auto;
+    padding: 10px 30px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.gradiente {
+    font-size: 2em;
+    color: #286645;
+    background-image: linear-gradient(to right, #c5ecd6, #e2f6eb, #ffffff);
+    font-family: idroid;
+}
+
+footer {
+    background-color: rgb(2, 88, 2);
+    text-align: center;
+    padding: 1px 1px;
+}
+
+.alinhamento {
+    font-size: 1em;
+    text-indent: 4em;
+}
+
+.extra {
+    background-color:#afffd3;
+    border-radius: 10px;
+}
+
+.extras {
+    background-color: #519270;
+    padding: 20px ;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.extra .alinhamento {
+    text-indent: 4em;
+    padding:20px 20px;
+}
+
+.rodape {
+    text-indent: 4em;
+    margin: 5px 10px;
+    padding-bottom: 30px;
+    background-color: white;
+}
+  
+  .lista {
+    list-style-position: inside;
+    columns: 2;
+}
